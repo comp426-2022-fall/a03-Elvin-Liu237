@@ -8,5 +8,5 @@ const sidess = args.sides || 6
 const dices = args.dice || 2
 const rollss = args.rolls || 1
 
-console.log(JSON.stringify(roll(sidess, dices, rollss)));
-
+//console.log(JSON.stringify(roll(sidess, dices, rollss)));
+console.log(roll(sidess, dices, rollss));
